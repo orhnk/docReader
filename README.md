@@ -1,3 +1,5 @@
+![Screenshot_Document Reader — Mozilla Firefox_2](https://user-images.githubusercontent.com/101834410/189141110-69ffea5b-e69e-4441-a362-a5c450c4583b.png)
+
 **Installation**
 open terminal
 `git clone https://github.com/KoBruhh/docReader.git`
