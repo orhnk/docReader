@@ -15,20 +15,30 @@ open terminal
 
 **-Python:**
 Simply go inside of the python dir with `cd Python`
+
 and then, if you type `ls` you are gonna see some example images to try with and also `main.py` which is code to execute
+
 Type:
   `python main.py` to execute the program
+
   drag a folder to terminal or type it manually
+  
   enter a word to search
+  
   if program finds any word that you gave, It will print `<Your word> Found!`
 
 **-Javascript**
 I used Javascript/html/css to create a simple website to make things a bit fancier.
 But there is a catch that I could not make python and javascript communicate so GUI verion only works with text files!
 To run javascript code:
+  
   go to directory's main folder and go inside to the `GUI (JS)` folder by `cd GUI\ \(JS\)/`
+  
   type `pwd` and copy the result
+  
   open any browser and paste it to search engine (on top)
+  and add `index.html` to the end of it
+  
   You should see something like this:![Screenshot_Document Reader — Mozilla Firefox_1](https://user-images.githubusercontent.com/101834410/189137405-b1ae45e3-e6bd-465c-85ac-7515f247ddfe.png)
   
   Here You have to drag your file into the dashed box OR click anywhere inside the dashed box and select a file you want (Has to be text file to work!)     type a word to search inside of the mini textbox (on the upper left side of right black box) 
