@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document Reader</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo">
+            <img class="logoPhoto" src="/home/kobruh/Belgeler/images.jpg" alt="logo" >
+            <span class="branchName" style="
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            ">DocReader?</span>
+        </div>
+        <!-- <div class="summary" style=" -->
+        <!-- position: relative; -->
+        <!-- border-radius: 5px; -->
+        <!-- background-color: darkgray; -->
+        <!-- color: black; -->
+        <!-- font-family: Arial; -->
+        <!-- padding: 10px; -->
+        <!-- text-align: center; -->
+        <!-- margin-left: 200px; -->
+        <!-- margin-right: 200px; -->
+        <!-- margin-top: 20px; -->
+        <!-- margin-bottom: 20px; -->
+        <!-- justify-content: center; -->
+        <!-- align-items: center; -->
+        <!-- "> -->
+        <!--     selam benim adım dombili mıncışı yaşamak çok eğlenceli -->
+        <!--     bla blackboş yapmaktan hoşlandığımı söylesem ya çok --> 
+        <!--     dürüstüm yada kezbanım. kabul ediyorum chelalık bir hata -->
+        <!--     olabilir, çaresi ve ilacı belirlidir. boş obş obş boş boş. -->
+        <!-- </div> -->
+        <p class="header">Document Reader</p>
+        <div id="cont" class="upload-container">		
+            <input type="file" name="inputfile" id="inputfile" multiple="true" class="input" style="opacity: 0;"/>
+        </div>
+        <br>
+        <!-- <button class="upload-btn" onclick="uploadFiles()">Submit</button> -->
+        <!-- <button onclick="save()"> -->
+        <!--     💾 -->
+        <!-- </button> -->
+        <div>
+            <input id="search" class="usrinput" type="text" pattern="[A-Za-z-']+" name="search" placeholder="Search" style="background-color: white;"/>
+        </div>
+        <div class="parent-container">
+            <div class="child-container1">
+                <p class="scroll-page" id="graph"></p>
+            </div>
+            <div class="child-container2">
+                <p class="scroll-page" id="ret"></p>
+            </div>
+        </div>
+
+
+        <!-- <div id="output" style=" -->
+        <!-- color: white; -->
+        <!-- background-color: black; -->
+        <!-- font-size: 18px; -->
+        <!-- font-family: Helvetica, sans-serif; -->
+        <!-- font-weight: bold; -->
+        <!-- align-items: center; -->
+        <!-- justify-content: center; -->
+        <!-- border-radius: 10px; -->
+        <!-- text-align: center;"> -->
+        <!--     <pre id="content" class="content"></pre> -->
+        <!-- </div> -->
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
